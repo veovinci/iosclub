@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="text/html; charset-utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" href="public/images/icon.png" type="image/png" sizes="16x16">
+
+    <title>GT iOS Club</title>
+    
+    <link rel="stylesheet" type="text/css" href="public/css/main.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="public/css/index.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style1.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body class="d-flex flex-column h-100">
+    <script src='public/js/script.js'></script>
+
+    <main class="flex-shink-0">
+        <div class="vw-100 flex centerEverything" style="flex-direction: column; height: 100vh; background: -webkit-linear-gradient(#D9D9D9, #FFFFFF);">
+            <div style="height:20vh;">
+                <img style="width: 100%; height:100%; object-fit: contain;"src='public/images/logo3.png'/>
+                <div class="flex centerEverything" style="margin: auto;">
+                    <div id="container-ios9"></div>                    
+                </div>
+                <script>
+                    var $siri_ios9 = document.getElementById('container-ios9');
+                    var SW9 = new SiriWave9({ width: 180, height: 30, speed: 0.1, amplitude: 1, container: $siri_ios9, autostart: true, });
+                </script>
+            </div>
+        </div>
+        <div class="text-center pb-6" style="background-color: #fff;">
+            <div class="container">
+                <h1 class="fw-800 mb-4 text-uppercase"> GT</h1>
+                <p style="max-width:500px; margin: auto;">
+                    GT iOS Club is a club dedicated to building a community of iOS Developers here at Georgia Tech. Come learn how to make iOS apps! We meet Tuesdays at 6:30 PM in CCB 053!
+                </p>
+                <p class="small" style="max-width:500px; margin: auto;">
+                    Below are some designs and apps I've made while apart of this club.
+                </p>
+            </div>
+            <div class="container mt-6">
+                <div class="row row-cols-md-1 row-cols-lg-2">
+                    <div class="col flex centerEverything mb-3" style="flex-direction:column;">
+                        <div class="image bd-f9" style="height: 200px; width: 450px; background-image:url('public/images/cover.png');"></div>
+                    </div>
+                    <div class="col flex centerEverything mb-3" style="flex-direction:column;">
+                        <div class="image bd-f9"style="height: 200px; width: 450px; background-image:url('public/images/mailchimp.png');"></div>
+                    </div>
+                    <div class="col flex centerEverything mb-3" style="flex-direction:column;">
+                        <div class="image bd-f9"style="height: 200px; width: 450px; background-image:url('public/images/demoday.png');"></div>
+                    </div>
+                    <div class="col flex centerEverything mb-3" style="flex-direction:column;">
+                        <div class="image bd-f9"style="height: 200px; width: 450px; background-image:url('public/images/demoday2.png');"></div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center hex-f" style="background-color: #000;">
+            <div class="pt-6 container">
+                <h1 class="fw-800 text-uppercase">Direction</h1>
+                <p style="max-width:500px; margin: auto;">
+                    This is a simple iOS app that tells direction. It vibrates the iPhone when the internal compass is pointed North.
+                </p>
+                <div class="image" style="padding-top: 56%; width: 100%; background-image: url('public/images/direction.png');"></div>
+            </div>
+        </div>
+
+        <div class="text-center pb-4" style="background-color: #f1f1f1;">
+            <div class="pt-6 container">
+                <h1 class="fw-800 text-uppercase">Waves</h1>
+                <p style="max-width:500px; margin: auto;">
+                    WAVE is an audio streaming service that allows you to stream your own music,
+                    giving you the ability to listen to your music, whatever genre or audio file it is, wherever and whenever.
+                </p>
+                <div class="image mt-3" style="padding-top: 50%; width: 100%; background-image: url('public/images/waves.png');"></div>
+            </div>
+        </div>
+
+        <div class="text-center" style="background-color: #fff;">
+            <div class="pt-6 container">
+                <h1 class="fw-800 text-uppercase">Atlas</h1>
+                <p style="max-width:500px; margin: auto;">
+                    Atlas is a transit app that aims to provide a better, more visual experience finding trains in the areas serviced by Marta.
+                    It uses location based services to provide you with the most relevant tranist infromation,
+                    such as where the nearest train station is and what time the train will arrive.
+                </p>
+                <div class="image" style="padding-top: 56%; width: 100%; background-image: url('public/images/atlas.png');"></div>
+            </div>
+        </div>    
+    </main>
+
+    <a class="anone" href="https://www.veovinci.com/" target="_blank">
+        <footer class="footer mt-auto">
+            <div class="image m-4" style="height: 50px; background-image:url('https://www.veovinci.com/images/icon.png');"></div>
+        </footer>
+    </a>
+</body>
+</html>
